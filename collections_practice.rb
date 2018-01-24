@@ -93,6 +93,7 @@ def organize_schools(schools)
   organized = {}
   schools.each{|hash, value|
     organized[value[:location]]=[]
+<<<<<<< HEAD
     }
    schools.each{|hash, value|
     organized
@@ -100,6 +101,13 @@ def organize_schools(schools)
       organized[value[:location]] << hash
     end
     }
+=======
+    schools.each{|hash, value|
+    organized[value[:location]] << hash}
+      
+    }
+  
+>>>>>>> 4f2081b322aaf6c9a7b3795a97293be01bd4ce38
   organized
   
   
